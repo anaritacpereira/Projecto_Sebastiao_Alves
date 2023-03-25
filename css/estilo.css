@@ -1,0 +1,808 @@
+/* ======= Estilo do Header ======= */
+
+.traco{
+    background-color: var(--cinza70);
+    margin:15px 55px;
+    height:1px;
+    
+}
+
+
+.dropdown-menu{
+    border: none;
+    border-radius: 0;
+    box-shadow: 2px 2px 10px gray;
+    padding: 25px 30px 35px 30px;
+    margin-top: 17px;
+    /* width: 100vw; */
+    
+}
+
+
+.dropdown-toggle::after{
+    content: none;
+}
+
+.submenu:active{
+    background-color: white !important;
+}
+
+.inicio{
+    position: absolute;
+    width: 100%;
+    z-index: 20;
+}
+
+#cabecalho{    
+    position:relative;
+    top:0;
+    left:0;
+    width:100%;
+    max-height: 730px;
+    z-index: 10;
+}
+
+#cabecalho2{    
+    position:relative;
+    top:0;
+    left:0;
+    width:100%;
+    max-height: 730px;
+    z-index: 10;
+}
+
+.cabecalho-img{
+    max-height: 730px;
+}
+
+.carousel-caption{
+    position:absolute;
+    top:255px;    
+}
+
+.btn-text-left{
+	text-align: left;	
+}
+
+.saber_mais{
+    background-image: url("../imagens/desktop/sabermais1.svg");
+    border: none;
+    width: 120px;
+    height: 30px;    
+}
+
+.saber_mais:hover{
+    background-image: url("../imagens/desktop/sabermais2.svg");
+}
+
+.voltar{
+    background-image: url("../imagens/desktop/voltar1.svg");
+    border: none;
+    width: 120px;
+    height: 30px;
+    margin-left: 150px;
+}
+
+.voltar:hover{
+    background-image: url("../imagens/desktop/voltar2.svg");
+}
+
+
+.vermais{
+    background-image: url("../imagens/desktop/vermais.svg");
+    border: none;
+    width: 120px;
+    height: 30px;
+    margin-left: 140px;
+}
+
+.vermais:hover{
+    background-image: url("../imagens/desktop/vermais-cinza.svg");
+}
+
+.mais{
+    display:flex;
+}
+
+.carousel-indicators{
+    position: absolute;
+    justify-content: left !important;
+    bottom: 80px;
+    display: flex;
+    gap: 12px;
+
+}
+.carousel-indicators li {
+    background-image: url("../imagens/desktop/bolabanner1.svg");
+    width: 20px !important;
+    height: 20px !important;
+    border-radius: 100%;
+    
+}
+
+.carousel-indicators .active{
+    background-image: url("../imagens/desktop/bolabanner2.svg");
+}
+
+/* ====== Mobile ======= */
+
+.navbar-toggler-icon {
+    width: 35px !important;
+    height: 25px !important;
+    border: none !important;
+    border-radius: 0;
+    padding: 15px;
+    background-image: url("../imagens/desktop/menu.svg") !important;
+  }
+
+.navbar-toggler .active{
+    border: none !important;
+}
+
+  
+.navbar-toggler[aria-expanded="true"] > .navbar-toggler-icon {
+    border: none !important;
+    background-image: url("../imagens/desktop/fechar.svg") !important;
+  }
+
+/* ======= Estilo do Main ======= */
+
+.caixabranca{
+    background-color: white;
+    box-shadow: -3px 4px 10px -3px gray;
+    position: relative;
+    z-index: 20;
+    height: 538px;
+    margin: -45px 0px 0px 90px;
+    padding: 5px;
+    
+}
+
+.caixabranca2{
+    background-color: white;
+    box-shadow: -3px 4px 10px -3px gray;
+    position: relative;
+    z-index: 20;
+    height: 400x;
+    margin: -45px 0px 0px 90px;  
+}
+
+.img-autor img{
+    height: 396px;
+    width: 312px;
+    margin-top: 60px;
+    box-shadow: 5px 5px 5px  gray;
+    margin-left: 40px;
+    margin-right: 40px;
+    float: left;
+}
+
+
+.img-autor2{
+    margin-top: 65px !important;
+    margin-bottom: 40px !important;
+    width: 500px !important;
+    margin: auto;
+}
+
+.pautor{
+    padding: 50px;
+    padding-right: 210px;
+}
+
+
+.bem-vindo{
+    margin-top: 60px;
+}
+
+.bemvindo-descricao{
+    margin-top: 30px;
+    text-align: justify!important;
+    overflow: hidden;
+    position: relative;
+    max-height: 255px;
+}
+
+
+.bemvindo-sm{
+    margin-top: 40px;
+    float:right;
+}
+
+.textocaixa2{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.destaques{
+    margin-top: 85px;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+.destaques-cards{
+    margin-left: 90px;
+    margin-right: 90px; 
+
+}
+
+.destaques-cards .destaque-card{
+    padding: 0;
+    height: 700px;
+    box-shadow: 3px 3px 10px  gray;
+    max-width: 335px;
+}
+
+
+
+.sobre{
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+.img-dest{
+    width: 100%;
+    max-height: 428px;
+    max-width: 335px;
+}
+
+.dest-sm{
+    float:right;
+}
+
+.livro{
+    float:left;
+}
+
+.img-imprensa{ 
+    width: 102%;
+    height: 102%;
+}
+
+.traco3{
+    background-color: var(--cinza70);
+    width: 70px;
+    height:1px;
+    
+}
+
+.traco4{
+    background-color: var(--douradoA9);
+    height:1px;
+}
+
+.traco5{
+    background-color: rgba(134, 133, 133, 0.233);
+    height:1px;
+    width: 100%;
+    box-shadow: 2px 2px 6px rgba(107, 107, 107, 0.899);
+}
+
+
+.imprensa-caixa{
+    box-shadow: 0px 10px 10px -10px rgb(77, 77, 77) !important;
+    padding: 65px 55px 60px 55px !important;
+}
+
+.imprensa-caixa2{
+    padding: 65px 55px 80px 55px !important;
+}
+
+
+.imprensa-hr{
+    padding-bottom: 16px !important;
+    height: 1px;
+    color: rgb(169, 115, 57);
+}
+
+.imprensa-img{
+    padding-right: 0px !important;
+    padding-top: 20px !important;
+    padding-left: 0px !important;
+}
+
+.imprensa-texto{
+    padding-left: 44px !important;
+    padding-right: 57px !important;
+    padding-bottom: 90px !important;
+}
+
+.voltar-pagina {
+    background-color: white;
+    background-image: url("../imagens/desktop/setaesquerda1.svg");
+    border: none;
+    width: 17px;
+    height: 30px;
+    margin-top: 3px;
+    margin-right: 60px;
+}
+  
+.voltar-pagina:hover {
+    background-image: url("../imagens/desktop/setaesquerda2.svg");
+}
+  
+.avancar-pagina {
+    background-color: white;
+    background-image: url("../imagens/desktop/setadireita1.svg");
+    border: none;
+    width: 17px;
+    height: 30px;
+    margin-top: 3px;
+    margin-left: 60px;
+}
+  
+.avancar-pagina:hover {
+    background-image: url("../imagens/desktop/setadireita2.svg");
+}
+
+input[type="submit"]{
+    border: none;
+    background-color: white;
+    font-size: 30px;
+    color: var(--cinza4D);
+    padding:10px;
+
+}
+
+input[type="submit"]:hover{
+    color: var(--douradoB4);
+}
+
+
+input[type="submit"].active{
+    color: var(--douradoB4);
+}
+
+
+/* ======= Estilo do Footer ======= */
+.traco2{
+    background-color: var(--cinza70);
+    height:1px;
+}
+
+.c-rs{
+    margin-top: 50px;
+    margin-left:150px;
+}
+
+.img-rs{
+    height: 37px;
+    width: 37px;
+}
+
+.insta .img-i2{
+    display: none;
+}
+.insta:hover .img-i1{
+    display: none;
+}
+.insta:hover .img-i2{
+    display: block;
+}
+
+.face .img-f2{
+    display: none;
+}
+.face:hover .img-f1{
+    display: none;
+}
+.face:hover .img-f2{
+    display: block;
+}
+
+.lin .img-l2{
+    display: none;
+}
+.lin:hover .img-l1{
+    display: none;
+}
+.lin:hover .img-l2{
+    display: block;
+}
+
+.infolegal{
+    margin: 58px 0 70px 150px;
+}
+
+.livroreclamacoes{
+    width: 77px;
+    height: 31px;
+}
+
+.ralc{
+    width: 125px;
+    height: 29px;
+    margin-left: 43px;
+}
+
+.cookies{
+    margin-top: 80px;
+}
+
+
+
+@media all and (max-width: 1247px) {
+    .carousel-indicators{
+        position: absolute;
+        justify-content: left !important;
+        bottom: 35px;
+        display: flex;
+        gap: 12px;
+    }
+
+
+    .texto_livro{
+        margin-left: 50px;
+    }
+
+    
+}
+
+@media all and (max-width: 991px) {
+    .mn_menu {
+      display: none;
+    }
+
+    .navbar-toggler{
+       position: relative;
+       left:830px;
+       bottom: 72px;
+       border: none!important;
+    }
+
+    .navbar-toggler-icon{
+        background-image: url("../imagens/desktop/menu.svg");
+        border: none!important;
+    } 
+
+    #navbarNavDropdown{
+        background-color: white;
+        width: 100vw;
+        padding: 20px;
+        margin-top: 0px;
+        position: relative;
+        bottom: 65px;
+        border: none;
+        box-shadow: 2px 2px 10px gray;
+    }
+
+
+    .menu{
+        width: 100vw;
+    }
+
+    .img-conteudo{
+        margin-left: 25%;
+    } 
+
+    .texto_livro{
+        margin-top: 40px;
+        margin-bottom: 50px;
+        width: 90%;
+       
+    }
+
+    
+ }
+
+
+ @media all and (max-width:965px) {
+    
+    .carousel-caption{
+        position:absolute;
+        top:200px;    
+    }
+    
+    .btn-text-left{
+        text-align: left;	
+    }
+
+ }
+
+
+ @media all and (max-width: 900px) {
+    
+    .navbar-toggler{
+       left:750px;
+       bottom: 72px;
+    }
+    
+ }
+
+ @media all and (max-width:875px) {
+    
+    .carousel-caption{
+        position:absolute;
+        top:150px;    
+    }
+    
+    .btn-text-left{
+        text-align: left;	
+    }
+
+    .navbar-toggler{
+        left:700px;
+        bottom: 72px;
+     }
+
+ }
+
+
+ @media all and (max-width:767px) {
+    
+    .caixabranca{
+        background-color: white;
+        width: 100%;
+        margin: 0px;
+        height: 538px; 
+    }
+
+
+    .caixabranca2{
+        width: 100%;
+        margin: 0px;  
+    }
+
+    .carousel-caption{
+        position:absolute;
+        top:380px;    
+    }
+
+
+    .navbar-toggler{
+        left:600px;
+        bottom: 72px;
+     }
+
+    .vermais{
+        margin-left: 300px;
+    }
+
+    .voltar{
+        margin-left: 300px;
+    }
+
+    .sobre{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+
+    .texto_livro{
+        margin-bottom: 70px;
+        width: 80%;
+       
+    }
+
+    .pautor{
+        padding: 50px;
+        padding-right: 80px;
+    }
+
+    
+ }
+
+
+ @media all and (max-width:685px) {
+    
+    .caixabranca{
+        background-color: white;
+        width: 100%;
+        margin: 0px;
+        height: 950px; 
+    }
+
+    .img-autor img{
+        margin-top: 60px;
+        margin-left: 25%;
+    }
+    
+    .bem-vindo{
+        margin-top: 500px;
+        margin-left: 30px;
+        
+    }
+
+    .navbar-toggler{
+        left:500px;
+        bottom: 72px;
+     }
+
+    
+    .vermais{
+        margin-left: 280px;
+    }
+
+    .voltar{
+        margin-left: 280px;
+    }
+
+
+    /* .contactos{
+        display: grid;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-grow: unset;
+        gap: 10px;
+
+    } */
+
+
+    
+ }
+
+
+ @media all and (max-width:600px) {
+
+    .carousel-caption{
+        position:absolute;
+        top:350px;    
+    }
+
+    .navbar-toggler{
+        left:400px;
+        bottom: 72px;
+     }
+
+
+    .vermais{
+        margin-left: 250px;
+    }
+
+    .voltar{
+        margin-left: 250px;
+    }
+
+    .img-conteudo{
+        margin-left: 15%;
+    } 
+
+    .texto_livro{
+        margin-top: 40px;
+        margin-bottom: 50px;
+        margin-left: 10px;
+    }
+
+
+    .pautor{
+        padding: 40px;
+        padding-right: 50px;
+    }
+
+ }
+
+
+ @media all and (max-width:500px) {
+    
+    .img-autor img{
+        margin-left: 12.5%;
+        height: 366px;
+        width: 282px;
+    }
+
+
+    
+    .navbar-toggler{
+        left:370px;
+        bottom: 72px;
+     }
+
+
+    .vermais{
+        margin-left: 182px;
+    }
+
+    .voltar{
+        margin-left: 182px;
+    }
+
+
+    .sobre{
+        margin-left: 0px!important;
+        margin-right: 0px!important;
+    }
+
+
+    .img-conteudo{
+        margin-left: 15px;
+    } 
+
+    .texto_livro{
+        margin-top: 40px;
+        margin-bottom: 50px;
+        margin-left: 10px;
+    }
+
+
+    .img-autor2{
+        margin-top: 65px !important;
+        margin-bottom: 40px !important;
+        width: 400px !important;
+        margin: auto;
+    }
+
+    .pautor{
+        padding: 30px;
+        padding-right: 50px;
+    }
+
+
+ }
+
+
+ @media all and (max-width:488px) {
+    
+    .navbar-toggler{
+        left:350px;
+        bottom: 72px;
+     }
+
+ }
+
+
+ @media all and (max-width:423px) {
+    
+    .navbar-toggler{
+        left:250px;
+        bottom: 72px;
+     }
+
+
+     .vermais{
+        margin-left: 152px;
+    }
+
+    .voltar{
+        margin-left: 152px;
+    }
+
+    .img-conteudo{
+        margin-left: 5px;
+    } 
+
+    .texto_livro{
+        margin-top: 40px;
+        margin-bottom: 50px;
+        margin-left: 10px;
+    }
+
+    .img-autor2{
+        width: 350px !important;
+        margin: auto;
+    }
+
+
+    .pautor{
+        padding: 10px;
+        padding-right: 20px;
+    }
+
+ }
+
+
+
+ @media all and (max-width:370px) {
+    
+
+    .vermais{
+        margin-left: 130px;
+    }
+
+    .voltar{
+        margin-left: 130px;
+    }
+
+    .pautor{
+        padding: 10px;
+        padding-right: 10px;
+    }
+
+ }
+
+
+
+
+
+ 
