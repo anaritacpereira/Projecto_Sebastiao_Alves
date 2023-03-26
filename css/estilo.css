@@ -308,9 +308,9 @@
 }
 
 .voltar-pagina {
-    background-color: white;
+    background-color: white !important;
     background-image: url("../imagens/desktop/setaesquerda1.svg");
-    border: none;
+    border: none !important;
     width: 17px;
     height: 30px;
     margin-top: 3px;
@@ -322,9 +322,9 @@
 }
   
 .avancar-pagina {
-    background-color: white;
+    background-color: white !important;
     background-image: url("../imagens/desktop/setadireita1.svg");
-    border: none;
+    border: none !important;
     width: 17px;
     height: 30px;
     margin-top: 3px;
@@ -336,8 +336,8 @@
 }
 
 input[type="submit"]{
-    border: none;
-    background-color: white;
+    border: none !important;
+    background-color: white !important;
     font-size: 30px;
     color: var(--cinza4D);
     padding:10px;

@@ -289,10 +289,10 @@ $redes=getRedes();
                         <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
                             <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link menu" aria-current="page" href="#menu-home">home</a>
+                                <a class="nav-link menu" aria-current="page" href="home.php">home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link menu" aria-current="page" href="#menu-autor">autor</a>
+                                <a class="nav-link menu" aria-current="page" href="autor.php">autor</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link menu" href="#menu-dropdown" onclick="abrir()">Livros</a>
